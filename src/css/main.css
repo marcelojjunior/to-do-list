@@ -4,7 +4,7 @@
 
 :focus {
     outline: transparent;
-    box-shadow: 0 0 0 2px #5AB5FF;
+    box-shadow: 0 0 0 2px #15803D;
 }
 
 * {
@@ -14,10 +14,10 @@
 
 }
 
-/* body {
+body {
     -webkit-font-smoothing: antialiased;
     background-color: #202024;
-} */
+}
 
 /* .grid-cols-256px-1fr{
    grid-template-columns: 256px 1fr;
