@@ -59,6 +59,7 @@ export function List() {
                     placeholder="Adicione uma nova tarefa"
                     value={newItemContent}
                     onChange={handleNewItemChange}
+                    required
                 />
                 <button
                     type="submit"
@@ -82,7 +83,7 @@ export function List() {
                     <p className="text-green-700 font-bold flex gap-2 text-sm">
                         Concluídas
                         <span className="bg-gray-600 rounded-2xl px-3 text-gray-300">
-                            2 de 5
+                            1 de {items.length}
                         </span>
                     </p>
                 </div>
